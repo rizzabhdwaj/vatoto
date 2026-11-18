@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Header />
       <main id="main-content">
+        <div className="hero-backdrop">
         <section className="hero container" aria-labelledby="hero-title">
           <div className="hero-copy">
             <p className="eyebrow"><span className="tiny-sun" aria-hidden="true" /> ROOTED IN CULTURE. MADE FOR CHILDHOOD.</p>
@@ -29,6 +30,7 @@ export default function Home() {
             <span className="hero-image-note">A world of wisdom. Right at home.</span>
           </div>
         </section>
+        </div>
 
         <div className="learning-strip"><div className="container learning-strip-inner"><span><span className="live-dot" /> Live, teacher-led classes</span><i /><span>Thoughtfully designed for ages 4–16</span><i /><span>Indian roots. Global families.</span></div></div>
 
